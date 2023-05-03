@@ -1,0 +1,221 @@
+/* CSS MENU */
+
+.navbar {
+    background-color: rgb(51, 58, 64) !important;
+}
+
+
+/* CSS CAROUSEL */
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    right: 200px;
+    text-align: right;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+
+/* CSS CARD */
+
+.texto {
+    font-size: 1rem;
+    /* interlinea */
+    line-height: 1.6rem;
+}
+
+.card {
+    width: 18rem;
+}
+
+.honolulo .octubre .texto2 {
+    font-size: 18px !important;
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 40px;
+    background-color: rgb(30, 71, 93)
+}
+
+.footer a {
+    padding: 7px;
+    font-size: 20px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    .navbar .container-fluid .collapse ul li {
+        font-size: 20px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered {
+        width: 100%;
+        padding: 40px;
+        color: black;
+        text-align: center !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered h5 {
+        font-size: 20px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered .texto1 {
+        font-size: 16px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered a {
+        font-size: 16px !important;
+        background-color: rgb(60, 102, 60);
+    }
+
+    .navbar {
+        padding: 4px !important;
+    }
+
+    .footer a {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 10px !important;
+    }
+
+    .footer {
+        padding: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .carousel .carousel-inner .carousel-item .centered h5 {
+        font-size: 20px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered .texto1 {
+        font-size: 16px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered a {
+        font-size: 16px !important;
+        background-color: rgb(60, 102, 60);
+    }
+
+    .carousel .carousel-inner .carousel-item .centered {
+        visibility: hidden;
+        width: 100%;
+        padding-right: 500px;
+        text-align: right !important;
+    }
+
+    .footer a {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1020px) {
+    .carousel .carousel-inner .carousel-item .centered h5 {
+        font-size: 23px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered .texto1 {
+        font-size: 16px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered a {
+        font-size: 16px !important;
+    }
+
+    .footer a {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1090px) {
+    .carousel .carousel-inner .carousel-item .centered h5 {
+        font-size: 23px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered .texto1 {
+        font-size: 16px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered a {
+        font-size: 16px !important;
+    }
+
+    .footer a {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width: 1090px) and (max-width: 1280px) {
+    .carousel .carousel-inner .carousel-item .centered h5 {
+        font-size: 28px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered .texto1 {
+        font-size: 18px !important;
+    }
+
+    .carousel .carousel-inner .carousel-item .centered a {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar .container-fluid .navbar-brand .texto {
+        font-size: 22px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1020px) {
+    .navbar .container-fluid #navbarText .navbar-nav .nav-item .nav-link {
+        font-size: 14px !important;
+        padding: 14px;
+    }
+
+    .navbar .container-fluid .navbar-brand .texto {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1070px) {
+    .navbar .container-fluid #navbarText .navbar-nav .nav-item .nav-link {
+        font-size: 15px !important;
+        padding: 14px;
+    }
+
+    .navbar .container-fluid .navbar-brand .texto {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (min-width: 1070px) and (max-width: 1250px) {
+    .navbar .container-fluid #navbarText .navbar-nav .nav-item .nav-link {
+        font-size: 16px !important;
+        padding: 14px;
+    }
+
+    .navbar .container-fluid .navbar-brand .texto {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1400px) {
+    .navbar .container-fluid #navbarText .navbar-nav .nav-item .nav-link {
+        font-size: 20px !important;
+        padding: 14px;
+    }
+
+    .navbar .container-fluid .navbar-brand .texto {
+        font-size: 24px !important;
+    }
+}
