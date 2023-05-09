@@ -204,13 +204,13 @@
 
     <!-- FOTO HONOLULU + TEXTO A LA DERECHA -->
 
-    <div class="row honolulo mt-5 mb-5 position-relative texto1">
+    <div class="row mt-5 mb-5 position-relative">
         <div class="col-xl-6 bg-dark">
             <img class="block w-100" src="IMAGENES/honolulu.png" alt="Paisaje Honolulu">
         </div>
-        <div class="col-xl-6 bg-dark text-light octubre">
-            <div class="fs-4 mb-2 pt-4 ps-4">Bs As - Octubre</div>
-            <div class="mb-2 px-4 texto2">Buenos Aires es la provincia y localidad más grande del estado de
+        <div class="col-xl-6 bg-dark text-light">
+            <div class="mb-2 pt-4 ps-4 fs-1">Bs As - Octubre</div>
+            <div class="mb-2 px-4 fs-5 texto2">Buenos Aires es la provincia y localidad más grande del estado de
                 Argentina,
                 en los
                 Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses.
@@ -252,12 +252,13 @@
             </div>
             <div class="row mx-5">
                 <div class="col-md mb-3">
-                    <input type="number" name="CantidadEntradas" onkeyup="calcularPrecioTotal()" id="CantidadEntradas"
+                    <input type="number" name="CantidadEntradas" oninput="calcularPrecioTotal()" id="CantidadEntradas"
                         class="form-control" required placeholder="CantidadEntradas" min="1" max="15">
                     <small>Precio por entrada $1000</small>
                 </div>
                 <div class="col-md mb-3">
-                    <select title="#" id="porcDescuento" onchange="calcularPrecioTotal()" class="form-select">
+                    <!-- oninput="calcularPrecioTotal()" o onchange="calcularPrecioTotal()" onkeyup="calcularPrecioTotal()" -->
+                    <select title="#" id="porcDescuento" oninput="calcularPrecioTotal()" class="form-select">
                         <option value="10">Particular</option>
                         <option value="30">Estudiante</option>
                         <option value="50">Orador</option>
@@ -268,7 +269,7 @@
                         placeholder="Precio con descuento">
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row mb-4 px-5 mx-2">
                 <input type="submit" value="Comprar" class="btn btn-primary">
             </div>
         </form>
